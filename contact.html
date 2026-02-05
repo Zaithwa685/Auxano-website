@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Auxano</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact">
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    
+    <div class="page-container">
+        <div class="hero-section">
+            <h1 class="page-title">Contact Us</h1>
+            <div class="title-underline"></div>
+            <p class="hero-subtitle">We look forward to hearing from you!</p>
+        </div>
+        
+        <div class="contact-grid">
+            <div class="contact-card animate-bounce-in">
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                <h3>Email</h3>
+                <p>kasowa178@gmail.com</p>
+                <div class="contact-hover-effect"></div>
+            </div>
+            
+            <div class="contact-card animate-bounce-in" style="animation-delay: 0.2s;">
+                <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                <h3>Phone</h3>
+                <p>+1 (555) 123-4567</p>
+                <div class="contact-hover-effect"></div>
+            </div>
+            
+            <div class="contact-card animate-bounce-in" style="animation-delay: 0.4s;">
+                <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <h3>Address</h3>
+                <p>123 Main Street<br>Boston, USA</p>
+                <div class="contact-hover-effect"></div>
+            </div>
+        </div>
+        
+        <div class="contact-form-section animate-fade-in">
+            <h2>Send Us a Message</h2>
+            <form class="contact-form" action="https://formsubmit.co/kasowa178@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://yourusername.github.io/auxano-website/contact.html">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
